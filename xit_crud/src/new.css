@@ -1,0 +1,177 @@
+.new {
+    width: 100%;
+    display: flex;
+  }
+  
+  .newContainer {
+    flex: 6;
+  }
+  
+  .newContainer .top,
+  .newContainer .bottom {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+  }
+  
+  .newContainer .top h1 {
+    color: lightgray;
+    font-size: 20px;
+  }
+  
+  .newContainer .top .left {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .newContainer .top .left img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .newContainer .top .right {
+    flex: 2;
+  }
+  
+  .newContainer .top .right form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+  }
+  
+  .newContainer .top .right .formInput {
+    width: 40%;
+  }
+  
+  .newContainer .top .right .formInput label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newContainer .top .right .formInput label .icon {
+    cursor: pointer;
+  }
+  
+  .newContainer .top .right .formInput input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .newContainer .top .right button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #0b64bd;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .newContainer .bottom {
+    flex: 2;
+  }
+  
+  .newContainer .bottom form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+  }
+  
+  .newContainer .bottom .formInput {
+    width: 40%;
+  }
+  
+  .newContainer .bottom .formInput label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .newContainer .bottom .formInput label .icon {
+    cursor: pointer;
+  }
+  
+  .newContainer .bottom .formInput input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+  }
+  
+  .newContainer .bottom button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    background-color: #0b64bd;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .new {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    padding-top: 50px; /* Add space between screen and form */
+}
+
+.newContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px; /* Limit the width of the form */
+    margin: 0 20px; /* Add margin on the sides */
+    padding: 20px; /* Add padding inside the container */
+}
+
+  
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .right {
+    width: 100%;
+  }
+  
+  .formInput {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 20px;
+  }
+
+  .newContainer .top .right form {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .newContainer .top .right .formInput {
+    width: 100%;
+  }
+  
+  
